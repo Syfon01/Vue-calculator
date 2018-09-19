@@ -77,6 +77,16 @@ function minus() {
 app.current +=  "-";
 }
 
+//our ' x ² ' button
+function square() {
+    app.current += "²";
+    }
+    
+    //our ' √ ' button
+    function squareRoot() {
+    app.current +=  "√";
+    }
+
 //our ' sin ' button
 function sin() {
 app.current = Math.sin(app.current);
